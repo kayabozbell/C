@@ -27,9 +27,12 @@ int main(){
     int bitDuzeyi=64;
     printf("Sola kaydirilmis sonuc: %d\n",bitDuzeyi<<1);
     printf("Saga kaydirilmis sonuc:%d\n",bitDuzeyi>>1);
-
-
-
+    
+    
+    /*
+    64= 0100 0000    1 bit sola kaydırınca--->> 1000 0000;2^7=128
+    64= 0100 0000    1 bit saga kaydırınca<<--- 0010 0000;2^5=32
+    */
 
     return 0;
 }
